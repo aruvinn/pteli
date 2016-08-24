@@ -6,75 +6,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PT. ELANG LINTAS INDONESIA</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,400,800|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar ale-navbar-style navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span>MENU</span>
+          </button>
+
+          <a class="navbar-brand ale-inline ale-navbar-brand-reset" href="#"><img class="ale-inline" src="http://placehold.it/40x40" alt="PT. ELI Logo" href="#"><span class="ale-navbar-text ale-navbar-brand-text" >PT. ELANG LINTAS INDONESIA</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="ale-navbar-text ale-navbar-menu-text" href="#">About</a></li>
+            <li><a class="ale-navbar-text ale-navbar-menu-text" href="#">News</a></li>
+            <li><a class="ale-navbar-text ale-navbar-menu-button" href="#">Schedule a Flight</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- Schedule Form -->
+    <div class="container-fluid ale-form-bg">
+        <div class="container ale-form">
+            <div class="row ">
+                <div class="col-md-4">
+                    <h1>Whenever Time Is Not A Luxury, Our Medevac Service Can Help You Save A Life</h1>
+                </div>
+                <div class="col-md-8">
+                    <h2>Schedule your Medevac today: </h2>
+                    <h3 class="ale-inline">by FORM</h3>
+                    <h3 class="ale-inline">by PHONE</h3>
+                    <form action="The action attribute defines the location (URL) where the form's collected data should be sent." method="The method attribute defines which HTTP method to send the data with (it can be "get" or "post")." autocomplete="on" name="pteli-book-index" target="_self">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </div>
+                        <div>
+                            <label for="mail">Phone</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </div>
+                        <div>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </div>
+                        <div>
+                            <label for="mail">Select the date:</label>
+                            <input type="date" name="bday" min="2016-09-01">
+                        </div>
+                        <div>
+                            <label for="mail">Location:</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </div>
+                        <div>
+                            <label for="msg">Additional Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Schedule a Flight</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CONTENT -->
     <div class="container">
-        <!-- Logo & navigation -->
-        <div class="row">
-            <div class="col-md-6">
-                <img class="" src="" alt="">
-                <h1>PT. ELANG LINTAS INDONESIA</h1>
-            </div>
-            <div class="col-md-6">
-                anchors
-                button to book
-            </div>
-        </div>
-        <!-- Booking form -->
-        <div class="row">
-            <div class="col-sm-12 col-md-8">
-                <h2>Some catchy sentence here</h2>
-                <h3>FORM</h3>
-                <H3>PHONE</H3>
-                <form action="The action attribute defines the location (URL) where the form's collected data should be sent." method="The method attribute defines which HTTP method to send the data with (it can be "get" or "post")." autocomplete="on" name="pteli-book-index" target="_self">
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </div>
-                    <div>
-                        <label for="mail">Phone</label>
-                        <input type="email" id="mail" name="user_mail" />
-                    </div>
-                    <div>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail" />
-                    </div>
-                    <div>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Book a Flight</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!-- Splash/ jumbotron -->
-        <div class="row">
-            <div class="col-sm-12"><h2>Some catchy sentence here</h2></div>
-            <div class="col-sm-6"><h3>Learn More</h3></div>
-            <div class="col-sm-6"><h3>Book Now </h3></div>
-        </div>
         <!-- Brief on company & services -->
         <div class="row">
-            <h2>Some catchy sentence here</h2>
-            THIS SHOULD BE VIDEO BUT HOW
-            <p>Cosmic fugue, a still more glorious dawn awaits inconspicuous motes of rock and gas venture Sea of Tranquility Flatland bits of moving fluff from which we spring not a sunrise but a galaxyrise astonishment dispassionate extraterrestrial observer lorem ipsum dolor sit amet cosmic ocean totam rem aperiam rich in heavy atoms something incredible is waiting to be known consectetur adipisicing elit rings of Uranus with pretty stories for which there's little good evidence lorem ipsum dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions. <a>more</a></p>
+            <div class="col-md-12">
+                <h2>Some catchy sentence here</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- 16:9 aspect ratio -->
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QXUO_yraOEw" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6"><p>Cosmic fugue, a still more glorious dawn awaits inconspicuous motes of rock and gas venture Sea of Tranquility Flatland bits of moving fluff from which we spring not a sunrise but a galaxyrise astonishment dispassionate extraterrestrial observer lorem ipsum dolor sit amet cosmic ocean totam rem aperiam rich in heavy atoms something incredible is waiting to be known consectetur adipisicing elit rings of Uranus with pretty stories for which there's little good evidence lorem ipsum dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions. <a>more</a></p></div>
         </div>
         <!-- Testimonials/ News -->
         <div class="row">
-            <h2>Some catchy sentence here</h2>
-            <img class="" src="" alt="">
-            <p> QUOTE Cosmic fugue, a still more glorious dawn awaits inconspicuous motes of rock and gas venture Sea of Tranquility Flatland bits of moving fluff from which we spring not a sunrise but a galaxyrise astonishment dispassionate extraterrestrial observer lorem ipsum dolor sit amet cosmic ocean totam rem aperiam rich in heavy atoms something incredible is waiting to be known consectetur adipisicing elit rings of Uranus with pretty stories for which there's little good evidence lorem ipsum dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions. <a>source</a></p>
+            <div class="col-md-12">
+                <h2>Some catchy sentence here</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 text-right ale-img-smallscreen">
+                <img class="img-circle" src="http://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-md-7">
+                <p> QUOTE Cosmic fugue, a still more glorious dawn awaits inconspicuous motes of rock and gas venture Sea of Tranquility Flatland bits of moving fluff from which we spring not a sunrise but a galaxyrise astonishment dispassionate extraterrestrial observer lorem ipsum dolor sit amet cosmic ocean totam rem aperiam rich in heavy atoms something incredible is waiting to be known consectetur adipisicing elit rings of Uranus with pretty stories for which there's little good evidence lorem ipsum dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions. <a>source</a></p>
+            </div>
         </div>
 
         <!-- Footer -->
         <div class="row">
-
+            <div class="col-md-4"><img class="" src="http://placehold.it/40x40" alt=""></div>
+            <div class="col-md-4">Home &#9679; Schedule a Flight &#9679; About &#9679; News </div>
+            <div class="col-md-4">Terms &#9679; Privacy</div>
+            <div></div>
+            <div class="col-md-12 text-center">&copy; 2016 PT. Elang Lintas Indonesia</div>
         </div>
     </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
 </html>
